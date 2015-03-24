@@ -6,7 +6,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   background-color: #191919;
-  color: whitesmoke;
+  color: #F5F5F5;
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5; }
@@ -56,7 +56,7 @@ a {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #555;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -68,7 +68,7 @@ picture {
   max-width: 100%; }
 
 blockquote {
-  border-left: 8px solid #555555;
+  border-left: 8px solid #555;
   color: white;
   margin: 1.5em 0;
   padding-left: 0.75em;
@@ -81,20 +81,20 @@ cite {
     content: "\2014 \00A0"; }
 
 mark {
-  background-color: #ffee00;
-  box-shadow: -0.16em 0 0 #ffee00, 0.16em 0 0 0 #ffee00; }
+  background-color: #FFEE00;
+  box-shadow: -0.16em 0 0 #FFEE00, 0.16em 0 0 0 #FFEE00; }
 
 code, samp, kbd, pre {
   font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace; }
 
 pre {
   background: white;
-  border: 1px #555555 solid;
+  border: 1px #555 solid;
   padding: 1em; }
 
 fieldset {
   background: #6e6e6e;
-  border: 1px solid #555555;
+  border: 1px solid #555;
   margin: 0 0 0.75em 0;
   padding: 1.5em; }
 
@@ -127,7 +127,7 @@ select {
   transition: border-color;
   background-color: white;
   border-radius: 2px;
-  border: 1px solid #555555;
+  border: 1px solid #555;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1em;
@@ -166,7 +166,7 @@ select {
   input[type="datalist"]:-moz-placeholder,
   select:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #555555;
+    color: #555;
     opacity: 1; }
   textarea::-moz-placeholder,
   input[type="email"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="search"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="url"]::-moz-placeholder, input[type="color"]::-moz-placeholder, input[type="date"]::-moz-placeholder, input[type="datetime"]::-moz-placeholder, input[type="datetime-local"]::-moz-placeholder, input[type="month"]::-moz-placeholder, input[type="time"]::-moz-placeholder, input[type="week"]::-moz-placeholder,
@@ -175,7 +175,7 @@ select {
   input[type="datalist"]::-moz-placeholder,
   select::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #555555;
+    color: #555;
     opacity: 1; }
   textarea:-ms-input-placeholder,
   input[type="email"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="url"]:-ms-input-placeholder, input[type="color"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, input[type="datetime"]:-ms-input-placeholder, input[type="datetime-local"]:-ms-input-placeholder, input[type="month"]:-ms-input-placeholder, input[type="time"]:-ms-input-placeholder, input[type="week"]:-ms-input-placeholder,
@@ -184,7 +184,7 @@ select {
   input[type="datalist"]:-ms-input-placeholder,
   select:-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    color: #555555; }
+    color: #555; }
 
 textarea {
   resize: vertical; }
@@ -223,7 +223,7 @@ th {
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #555;
   padding: 0.75em 0; }
 
 tr,
@@ -251,7 +251,7 @@ input[type="submit"],
   -webkit-font-smoothing: antialiased;
   background-color: #007bff;
   border-radius: 2px;
-  color: whitesmoke;
+  color: #F5F5F5;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -275,7 +275,7 @@ input[type="submit"],
   .button:hover,
   .button:hover {
     background-color: #0056b3;
-    color: whitesmoke;
+    color: #F5F5F5;
     transition: color 0.3s, background-color 0.3s; }
   button:disabled,
   input[type="submit"]:disabled,
@@ -676,7 +676,7 @@ html, body {
       height: 4em; } }
 
 .footer-2 {
-  background: #222222;
+  background: #222;
   padding: 1.5em;
   margin-bottom: -7px;
   width: 100%;
@@ -736,8 +736,8 @@ html, body {
         opacity: 1; }
 
 .hero {
-  background: url("../img/forest.jpg"), -webkit-linear-gradient(-280deg, #20392b, #7f99be), no-repeat #7f99be scroll;
-  background: url("../img/forest.jpg"), linear-gradient(10deg, #20392b, #7f99be), no-repeat #7f99be scroll;
+  background: url("../img/forest.jpg"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background: url("../img/forest.jpg"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -831,12 +831,12 @@ html, body {
     border-radius: 50%;
     width: 3.5em;
     height: 3.5em; }
-  .bullets .bullet-icon-1 {
+  .bullets .bullet-icon--yellow {
     background: #e6d600; }
-  .bullets .bullet-icon-2 {
+  .bullets .bullet-icon--blue {
     background: #007bff; }
-  .bullets .bullet-icon-3 {
-    background: #33a300; }
+  .bullets .bullet-icon--green {
+    background: #33A300; }
   .bullets .bullet-content {
     margin-left: 4.9em;
     margin-bottom: 2em; }
@@ -863,34 +863,34 @@ label {
 textarea, input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"], input, input[type="file"], input[type="range"], input[type="datalist"], select {
   box-sizing: border-box;
   border-radius: 2px;
-  border: 1px solid #555555;
-  background: #999999;
-  color: #222222;
+  border: 1px solid #555;
+  background: #999;
+  color: #222;
   outline: none; }
   textarea.success, input[type="email"].success, input[type="number"].success, input[type="password"].success, input[type="search"].success, input[type="tel"].success, input[type="text"].success, input[type="url"].success, input[type="color"].success, input[type="date"].success, input[type="datetime"].success, input[type="datetime-local"].success, input[type="month"].success, input[type="time"].success, input[type="week"].success, input.success, input[type="file"].success, input[type="range"].success, input[type="datalist"].success, select.success {
-    border-color: #33a300;
+    border-color: #33A300;
     background: #c1e3b2;
-    color: #33a300; }
+    color: #33A300; }
     textarea.success:hover, input[type="email"].success:hover, input[type="number"].success:hover, input[type="password"].success:hover, input[type="search"].success:hover, input[type="tel"].success:hover, input[type="text"].success:hover, input[type="url"].success:hover, input[type="color"].success:hover, input[type="date"].success:hover, input[type="datetime"].success:hover, input[type="datetime-local"].success:hover, input[type="month"].success:hover, input[type="time"].success:hover, input[type="week"].success:hover, input.success:hover, input[type="file"].success:hover, input[type="range"].success:hover, input[type="datalist"].success:hover, select.success:hover {
       border-color: #237000; }
     textarea.success:focus, input[type="email"].success:focus, input[type="number"].success:focus, input[type="password"].success:focus, input[type="search"].success:focus, input[type="tel"].success:focus, input[type="text"].success:focus, input[type="url"].success:focus, input[type="color"].success:focus, input[type="date"].success:focus, input[type="datetime"].success:focus, input[type="datetime-local"].success:focus, input[type="month"].success:focus, input[type="time"].success:focus, input[type="week"].success:focus, input.success:focus, input[type="file"].success:focus, input[type="range"].success:focus, input[type="datalist"].success:focus, select.success:focus {
-      border-color: #33a300;
+      border-color: #33A300;
       box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(51, 163, 0, 0.7);
       outline: none; }
   textarea.error, input[type="email"].error, input[type="number"].error, input[type="password"].error, input[type="search"].error, input[type="tel"].error, input[type="text"].error, input[type="url"].error, input[type="color"].error, input[type="date"].error, input[type="datetime"].error, input[type="datetime-local"].error, input[type="month"].error, input[type="time"].error, input[type="week"].error, input.error, input[type="file"].error, input[type="range"].error, input[type="datalist"].error, select.error {
-    border-color: #f24236;
+    border-color: #F24236;
     background: #fbc6c2;
-    color: #f24236; }
+    color: #F24236; }
     textarea.error:hover, input[type="email"].error:hover, input[type="number"].error:hover, input[type="password"].error:hover, input[type="search"].error:hover, input[type="tel"].error:hover, input[type="text"].error:hover, input[type="url"].error:hover, input[type="color"].error:hover, input[type="date"].error:hover, input[type="datetime"].error:hover, input[type="datetime-local"].error:hover, input[type="month"].error:hover, input[type="time"].error:hover, input[type="week"].error:hover, input.error:hover, input[type="file"].error:hover, input[type="range"].error:hover, input[type="datalist"].error:hover, select.error:hover {
       border-color: #e61d0f; }
     textarea.error:focus, input[type="email"].error:focus, input[type="number"].error:focus, input[type="password"].error:focus, input[type="search"].error:focus, input[type="tel"].error:focus, input[type="text"].error:focus, input[type="url"].error:focus, input[type="color"].error:focus, input[type="date"].error:focus, input[type="datetime"].error:focus, input[type="datetime-local"].error:focus, input[type="month"].error:focus, input[type="time"].error:focus, input[type="week"].error:focus, input.error:focus, input[type="file"].error:focus, input[type="range"].error:focus, input[type="datalist"].error:focus, select.error:focus {
-      border-color: #f24236;
+      border-color: #F24236;
       box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(242, 66, 54, 0.7);
       outline: none; }
   textarea:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="time"]:disabled, input[type="week"]:disabled, input:disabled, input[type="file"]:disabled, input[type="range"]:disabled, input[type="datalist"]:disabled, select:disabled {
     cursor: no-drop;
-    background: #222222;
-    color: #dddddd; }
+    background: #222;
+    color: #DDD; }
 
 input[type="color"] {
   height: 2.5em;
@@ -905,16 +905,16 @@ input[type="range"] {
     box-shadow: none; }
 
 input[type="radio"]:disabled + span, input[type="checkbox"]:disabled + span {
-  color: #999999; }
+  color: #999; }
 
 fieldset {
-  background-color: #222222; }
+  background-color: #222; }
 
 input[type="reset"] {
   -webkit-font-smoothing: antialiased;
-  background-color: #dddddd;
+  background-color: #DDD;
   border-radius: 2px;
-  color: #222222;
+  color: #222;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -924,7 +924,7 @@ input[type="reset"] {
   text-decoration: none; }
   input[type="reset"]:hover {
     background-color: #b7b7b7;
-    color: #222222;
+    color: #222;
     transition: color 0.3s, background-color 0.3s; }
   input[type="reset"]:disabled {
     cursor: not-allowed;
@@ -942,7 +942,7 @@ body section {
 
 header {
   padding: 1.5em;
-  border-bottom: 3px solid #eea301; }
+  border-bottom: 3px solid #EEA301; }
   header nav {
     display: inline-block;
     float: right;
@@ -952,3 +952,5 @@ header {
       list-style-type: none;
       font-weight: 800;
       padding-left: 1em; }
+
+/*# sourceMappingURL=app.css.map */
