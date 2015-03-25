@@ -1,0 +1,41 @@
+label
+  margin-bottom: 0
+  font-size: 0.9em
+  transition: color 0.5s
+
+textarea, #{$all-text-inputs}, input, input[type="file"], input[type="range"], input[type="datalist"], select
+  box-sizing: border-box
+  border-radius: $base-border-radius
+  border: $base-border
+  background: $medium-gray
+  color: $dark-gray
+  outline: none
+  &.success
+    @include input-color-change($success-color)
+  &.error
+    @include input-color-change($error-color)
+  &:disabled
+    cursor: no-drop
+    background: $dark-gray
+    color: $light-gray
+
+input[type="color"]
+  height: 2.5em
+  padding: 0 inital
+
+input[type="datalist"]
+  width: 100%
+
+input[type="range"]
+  box-shadow: none
+  &:hover, &:focus
+    box-shadow: none
+
+input[type="radio"]:disabled + span, input[type="checkbox"]:disabled + span
+  color: $medium-gray
+
+fieldset
+  background-color: $dark-gray
+
+input[type="reset"]
+  @include button($light-gray)
