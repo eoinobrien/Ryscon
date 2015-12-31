@@ -1,0 +1,6 @@
+*.sh
+node_modules/
+node_modules/*
+material-design-icons-1.0.1/*
+.*
+!/.gitignore
